@@ -13,5 +13,4 @@ python -m pip install -r requirements/test_requirements.txt
 mkdir tmp_for_test
 cd tmp_for_test
 
-# TODO(thomasjpfan): use `--pyargs sklearn`
-pytest --pyargs sklearn.tests.test_dummy
+pytest --pyargs sklearn
