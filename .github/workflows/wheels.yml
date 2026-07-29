@@ -2,8 +2,8 @@ name: Publish sdist and wheels
 
 on:
   schedule:
-    # 01:01 UTC every Monday and Thursday.
-    - cron: "1 1 * * 1,4"
+    # 01:01 UTC every day
+    - cron: "1 1 * * *"
   pull_request:
     branches:
       - main
